@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vmin;
+    width: auto;
+    flex-direction: column;   
+}
+
+h1 {
+    font-size: 17vmin;
+    text-align: center;
+}
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+input {
+    font-size: 40px;
+    border: 4px solid darkgrey;
+    width: 20vmin;
+    border-radius: 2vmin;
+    padding: 2vmin;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: grey;
+    font-size: 40px;
+    border: 4px solid darkgrey;
+    width: 15vmin;
+    border-radius: 2vmin;
+    padding: 2vmin;
+    text-align: center;
+    margin: 3vmin
+}
+
+button:hover {
+    background: white;
+    color: darkgrey;
+}
